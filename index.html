@@ -1,0 +1,353 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+  <link rel="stylesheet" href="dist/output.css">
+  <style>
+    .horizontal-scroll::-webkit-scrollbar {
+      width: 0;
+    }
+  </style>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          flex: {
+            '2': '2'
+          },
+          screens: {
+            xs: '425px'
+          },
+          fontFamily: {
+            display: 'Red Hat Display',
+            sans: 'Inter',
+          },
+          colors: {
+          },
+          dropShadow: {
+            glow: [
+              "0 0px 20px rgba(255,255, 255, 0.35)",
+              "0 0px 65px rgba(255, 255,255, 0.2)"
+            ],
+            'glow-2': [
+              "0 0px 20px rgba(255,255, 255, 0.45)",
+              "0 0px 65px rgba(255, 255,255, 0.3)"
+            ]
+          },
+        }
+      }
+    }
+  </script>
+  <title>Inova Tech</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Red+Hat+Display:wght@400;700&display=swap"
+    rel="stylesheet">
+</head>
+
+<body class="font-sans bg-[#0f4cd0]">
+  <section class="relative w-full h-screen flex items-center justify-center ">
+    <img class="absolute z-10  h-full w-full object-cover" src="assets/background-2.jpg" alt>
+    <div class="z-20 flex text-white flex-col">
+      <span class="text-2xl xs:text-2xl xl:text-3xl font-display font-regular">workshop</span>
+      <h1 class="font-display text-6xl xs:text-7xl md:text-7xl lg:text-8xl xl:text-9xl font-bold">Inova
+        Tech</h1>
+      <span class="text-2xl xs:text-2xl xl:text-3xl font-display font-regular">immersion</span>
+      <div class=" w-fit relative z-20 flex mt-6 px-4 py-2 border border-white/20 rounded-lg ">
+        <span class="block absolute top-0 left-0 w-full h-full backdrop-blur-lg rounded-lg "></span>
+        <span class="z-30 flex font-semibold text-lg">07 de dezembro de 2023</span>
+      </div>
+      <a target="_blank" href="https://www.even3.com.br/inova-tech-380707"
+        class="decoration-none inline-flex items-center transition hover:bg-gray-100 hover:drop-shadow-glow-2 drop-shadow-glow w-fit z-20 px-5 py-2 text-lg rounded-lg font-medium text-gray-800 bg-white mt-10">
+        Inscreva-se
+        <img src="assets/chevron-right.svg" alt class="w-6 ml-2">
+      </a>
+    </div>
+    <a href="https://vecteezy.com" class="text-blue-600 z-20 absolute top-0 left-0">Vecteezy.com</a>
+  </section>
+  <div class="w-full bg-white">
+    <section
+      class="reveal bg-white max-w-5xl mx-auto px-5 py-16 flex gap-12 md:gap-16 items-center flex-col md:flex-row">
+      <div class="relative w-2/3 md:max-w-sm md:w-full ">
+        <img class="relative z-10 w-full" src="./assets/objetivos.svg" alt="Objetivos">
+      </div>
+      <div class="flex-1">
+        <h1 class="text-gray-800 text-4xl font-bold mb-5">Objetivos
+        </h1>
+        <p class="text-md max-w-[75ch] text-gray-700">Discutir tópicos sobre
+          inovação e suas implicações na academia e
+          no
+          empreendedorismo, bem como exercitar a aplicação de ferramentas de
+          gestão.</p>
+      </div>
+    </section>
+  </div>
+  <section class="w-full bg-gray-100 flex items-center justify-center py-12 px-5">
+    <div
+      class="reveal border border-gray-200 bg-white max-w-5xl mx-auto gap-12 md:gap-16 p-5 md:py-3 md:px-8 flex items-center flex-col-reverse md:flex-row rounded-xl shadow-sm">
+      <div class="flex-1">
+        <h1 class="text-gray-800 text-4xl font-bold mb-5 ">Objetivos
+          Específicos</h1>
+        <p class="text-md max-w-[75ch] text-gray-700">Elencar tópicos
+          relacionados à utilização de inovação na academia.
+          Apresentar cases de sucesso utilizando espaços de inovação.
+          Proporcionar teoria e prática utilizando ferramentas de gestão
+          inovadora</p>
+      </div>
+      <div class="md:w-full w-2/3 md:max-w-xs">
+        <img class="relative z-10 w-full" src="./assets/objetivos-especificos.svg" alt="Objetivos">
+      </div>
+    </div>
+  </section>
+  <div class="w-full bg-white">
+    <section class="max-w-5xl mx-auto py-12">
+      <h1 class="text-gray-800 text-4xl font-bold mb-8 md:mb-12 text-center w-full">Programação</h1>
+      <div class="w-fit mx-auto grid grid-cols-2 relative">
+        <span
+          class="absolute h-4 w-4 rounded-full bg-gray-300 top-0 left-[50%] -translate-x-[50%] -translate-y-[50%]"></span>
+
+        <span
+          class="sequence-1 h-full relative p-4 md:px-8 block text-lg font-semibold text-blue-600 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300">8:00</span>
+        <span
+          class="sequence-2 h-full break-words p-4 md:py-4 md:px-8 block text-lg font-semibold text-gray-800 ">Credenciamento</span>
+
+        <span
+          class="sequence-1 h-full relative p-4 md:py-4 md:px-8 block text-lg font-semibold text-gray-800 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300 ">Abertura</span>
+        <span class="sequence-2 h-full p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600 ">8:30</span>
+
+        <span
+          class="sequence-1 h-full relative
+         p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300 grid items-center">9:30</span>
+        <span class="sequence-2 h-full p-4 md:py-4 md:px-8 block ">
+          <h3 class="text-lg font-semibold text-gray-800 "> Palestra</h3>
+          <span class="text-xs font-semibold mb-4 text-gray-600">Prof. George
+            Ventura</span>
+          <p class="text-sm max-w-[30ch] text-gray-700">Por que Pensar
+            Inovação em Ambientes Educacionais?</p>
+        </span>
+
+        <span
+          class="sequence-1 h-full relative p-4 md:py-4 md:px-8 block text-lg font-semibold text-gray-800 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300 ">Coffee
+          Break</span>
+        <span class="sequence-2 h-full p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600 ">9:40</span>
+
+        <span
+          class="sequence-1 h-full relative
+        p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300 grid items-center">10:00</span>
+
+        <span class="sequence-2 h-full p-4 md:py-4 md:px-8 block ">
+          <h3 class="text-lg font-semibold text-gray-800 "> Palestra</h3>
+          <span class="text-xs font-semibold text-gray-600 mb-4">Prof.
+            Francisco Soares</span>
+          <p class="text-sm max-w-[30ch] text-gray-700">Sou professor: O
+            Empreendedorismo pode ser minha praia?</p>
+        </span>
+
+        <span
+          class="sequence-1 h-full p-4 md:py-4 md:px-8 block relative text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300">
+          <h3 class="text-lg font-semibold text-gray-800 "> Palestra</h3>
+          <p class="text-sm max-w-[30ch] text-right">Transformação Digital:
+            Inovação em um Mundo Conectado</p>
+        </span>
+        <span class="sequence-2 h-full
+      p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600  grid items-center">11:00</span>
+
+        <span
+          class="sequence-1 h-full relative p-4 md:py-4 md:px-8 block text-lg font-semibold text-blue-600 text-right after:h-5 after:w-5 after:rounded-full after:bg-blue-600 after:absolute after:right-0 after:top-[50%] after:translate-x-[calc(50%+1px)] after:-translate-y-[50%] before:h-2 before:w-2 before:rounded-full before:bg-blue-600 before:absolute before:right-0 before:top-[50%] before:translate-x-[calc(50%+1px)] before:-translate-y-[50%] before:z-10 before:ring-4 before:ring-white border-r-2 border-gray-300">12:00</span>
+        <span class="sequence-2 h-full p-4 md:py-4 md:px-8 block text-lg font-semibold text-gray-800 ">Intervalo
+          -
+          Almoço</span>
+      </div>
+    </section>
+  </div>
+  <section class="relative w-full bg-white py-12">
+    <div class="absolute top-0 left-0 w-full h-full -skew-y-3 bg-gray-950
+    "></div>
+    <div class="flex w-full justify-center ">
+      <h1 class="relative text-white text-4xl font-bold mb-8">Oficinas</h1>
+      <div class="ml-12 flex gap-2">
+        <button
+          class="left relative p-2 h-fit rounded-md border border-gray-500 bg-gray-700 transition hover:bg-gray-600 active:bg-gray-800"><img
+            src="assets/chevron-left-white.svg" class="w-5" alt></button>
+        <button
+          class="right relative p-2 h-fit rounded-md border border-gray-500 bg-gray-700 transition hover:bg-gray-600 active:bg-gray-800"><img
+            src="assets/chevron-right-white.svg" class="w-5" alt></button>
+      </div>
+    </div>
+    <div
+      class="relative max-w-5xl mx-auto flex px-5 gap-5 overflow-auto horizontal-scroll scroll-content scroll-smooth">
+
+      <div
+        class="shrink-0 p-3 rounded-md border border-gray-200 shadow-sm bg-white basis-72  flex flex-col space-around">
+        <img src="./assets/ideacao-criativa.svg" class='mx-auto w-2/3 aspect-square object-contain' alt>
+        <h3 class="text-xl  font-bold text-center mb-3 text-gray-800">Ideação
+          Criativa</h3>
+        <p class="text-md text-center mb-5 text-gray-700 ">Esta oficina
+          envolver atividades de brainstorming, jogos de
+          criatividade e
+          técnicas de estímulo para geração de ideias com conceitos
+          inovadores.</p>
+        <div class="flex w-full justify-around mt-auto">
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-loc.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">Sala 01</span>
+          </span>
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-clock.svg" alt>
+            <span class="text-sm text-gray-600 font-medium ">14:00 ás 16:30</span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="shrink-0 p-3 rounded-md border border-gray-200 shadow-sm bg-white basis-72  flex flex-col space-around">
+        <img src="./assets/design-thinking.svg" class='mx-auto w-2/3 aspect-square object-contain' alt>
+        <h3 class="text-xl font-bold text-center mb-3 text-gray-800">Design
+          Thinking</h3>
+        <p class="text-md text-center mb-5 text-gray-700">Encontra Soluções
+          Centradas nos Clientes, através dos
+          princípios do design
+          thinking para resolver problemas complexos de forma criativa e
+          centrada.</p>
+        <div class="flex w-full justify-around mt-auto">
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-loc.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">Sala 02</span>
+          </span>
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-clock.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">14:00 ás 16:30</span>
+          </span>
+        </div>
+      </div>
+      <div
+        class=" shrink-0 p-3 rounded-md border border-gray-200 shadow-sm bg-white basis-72  flex flex-col space-around">
+        <img src="./assets/pitch.svg" class='mx-auto w-2/3 aspect-square object-contain' alt>
+        <h3 class="text-xl font-bold text-center mb-3 text-gray-800">Pitch</h3>
+        <p class="text-md text-center mb-5 text-gray-700 ">Forma Impactante de
+          criar e apresentar um pitch eficaz que
+          destaque a
+          inovação e a proposta de valor única dos seus empreendimentos.</p>
+        <div class="flex w-full justify-around mt-auto">
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-loc.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">Sala 03</span>
+          </span>
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-clock.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">14:00 ás 16:30</span>
+          </span>
+        </div>
+      </div>
+      <div
+        class="shrink-0 p-3 rounded-md border border-gray-200 shadow-sm bg-white basis-72  flex flex-col space-around">
+        <img src="./assets/networking.svg" class='mx-auto w-2/3 aspect-square object-contain' alt>
+        <h3 class="text-xl font-bold text-center mb-3 text-gray-800">Networking
+          e Relações Profissionais</h3>
+        <p class="text-md text-center mb-5 text-gray-700 ">Expandindo seu
+          Círculo de Contatos, através do networking com
+          dicas
+          práticas
+          para construir e manter relacionamentos profissionais.</p>
+        <div class="flex w-full justify-around mt-auto">
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-loc.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">Sala 04</span>
+          </span>
+          <span class="inline-flex items-center">
+            <img class="w-5 mr-2" src="./assets/icon-clock.svg" alt>
+            <span class="text-sm text-gray-600 font-medium">14:00 ás 16:30</span>
+          </span>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="bg-gray-50 w-full py-12 px-5">
+    <div class="max-w-5xl mx-auto">
+      <h1 class="text-gray-800 text-4xl font-bold mb-8 text-center w-full">Convidados</h1>
+      <div class="grid grid-flow-row grid-cols-1 xs:grid-cols-2 md:grid-cols-3 items-center">
+        <div class="basis-48 p-4 reveal">
+          <img src="assets/convidados.png" class="w-full rounded-md">
+          <h4 class="text-md font-semibold text-gray-800 mt-4">George Ventura</h4>
+          <p class="text-sm font-medium text-gray-600">Doutor em Ciências
+            ENSP-FIOCRUZ</p>
+        </div>
+        <div class="basis-48 p-4 reveal">
+          <img src="assets/convidados.png" class="w-full rounded-md">
+          <h4 class="text-md font-semibold text-gray-800 mt-4">Isabel Meireles</h4>
+          <p class="text-sm font-medium text-gray-600">Dra. em Saúde Pública</p>
+        </div>
+        <div class="basis-48 p-4 reveal">
+          <img src="assets/convidados.png" class="w-full rounded-md">
+          <h4 class="text-md font-semibold text-gray-800 mt-4">Noemi Oliveira</h4>
+          <p class="text-sm font-medium text-gray-600">Dra. em Comunicação</p>
+        </div>
+      </div>
+    </div>
+  </section>
+  <section class="relative w-full bg-white flex items-center justify-center py-12 px-5">
+    <div class="absolute top-0 left-0 w-full h-full bg-gray-950 skew-y-3"></div>
+    <div
+      class="reveal relative max-w-5xl mx-auto gap-12 md:gap-16 p-5 md:py-3 md:px-8 flex items-center flex-col md:flex-row rounded-xl shadow-sm">
+      <div class="md:w-full w-2/3 md:max-w-xs">
+        <img class="relative z-10 w-full" src="./assets/resultados.svg" alt="Objetivos">
+      </div>
+      <div class="flex-1 ">
+        <h1 class="text-white text-4xl font-bold mb-5 ">Resultados Esperados</h1>
+        <p class="text-md max-w-[75ch] text-gray-100">Atualizar a comunidade
+          sobre tópicos relacionados à utilização de
+          inovação na academia.
+          Demonstrar cases de sucesso que possam estimular a utilização
+          espaços de inovação.
+          Aumentar o conhecimento prático sobre a utilização de ferramentas de
+          gestão e pensamento disruptivo no
+          ambiente acadêmico.</p>
+      </div>
+    </div>
+  </section>
+  <div class="w-full bg-white">
+    <section
+      class="bg-white max-w-5xl mx-auto px-5 py-16 flex gap-12 md:gap-16 items-center flex-col-reverse md:flex-row">
+      <div class="flex-1 reveal">
+        <h1 class="text-gray-800 text-4xl font-bold mb-4">Participe
+          do evento
+        </h1>
+        <p class="text-md max-w-[75ch] text-gray-700">
+          Junte-se a nós no Inova Tech e explore o futuro da inovação! Este
+          evento emocionante irá discutir como a
+          inovação está moldando o cenário acadêmico e empresarial.
+        </p>
+        <a target='_blank' href="https://www.even3.com.br/inova-tech-380707"
+          class="inline-flex bg-blue-600 text-white decoration-none rounded-md text-md font-medium py-3 px-5 mt-8 transition hover:bg-blue-500 active:bg-blue-700">Inscreva-se!</a>
+      </div>
+      <div class="relative w-2/3 md:max-w-xs md:w-full reveal ">
+        <img class="relative z-10 w-full" src="./assets/participe.svg" alt="Objetivos">
+      </div>
+    </section>
+  </div>
+  <script>
+    ScrollReveal().reveal('.reveal', { delay: 200, distance: '50px', viewFactor: 0.3 })
+    ScrollReveal().reveal('.sequence-1', { interval: 100, distance: '10px', viewFactor: 0.3 })
+    ScrollReveal().reveal('.sequence-2', {
+      interval: 100, distance: '10px', viewFactor: 0.3
+    })
+
+    const scrollContent = document.querySelector('.scroll-content');
+    const leftButton = document.querySelector('.left');
+    const rightButton = document.querySelector('.right');
+    const scrollStep = 312; // Adjust this value to control the scroll distance
+
+    leftButton.addEventListener('click', () => {
+      scrollContent.scrollLeft -= scrollStep;
+    });
+
+    rightButton.addEventListener('click', () => {
+      scrollContent.scrollLeft += scrollStep;
+    });
+  </script>
+</body>
+
+</html>
